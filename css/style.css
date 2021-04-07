@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&display=swap');
+
+.avatar {
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.competency-block {
+  width: min(30%);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.competency-row-starts {
+  /*margin-bottom: 20px;*/
+
+}
+
+.professional-block {
+  width: 69%;
+  display:inline-block;
+}
+
+.tableP {
+
+}
+
+body {
+  background-color: #f1f6f9;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+
+hr {
+  width: 10%;
+  border-width: 0 0 5px 0;
+  border-color: lightgray;
+  border-style: dotted;
+}
+
+table {
+  padding: 5px;
+  width: 100%;
+
+}
+
+h1 {
+  color: #14274e;
+  font-family: 'Lobster';
+  font-size: 3rem;
+  margin: 0 auto 0 auto;
+}
+
+h3 {
+  color: #394867;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
