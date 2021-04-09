@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&display=swap');
 
-.avatar {
-  border-radius: 100%;
-  padding: 20px;
-}
-
-.subtitle {
-  font-weight: normal;
-}
-
-.competency-block {
-  width: min(30%);
-  display: inline-block;
-  vertical-align: top;
-}
-
-.competency-row-starts {
-  /*margin-bottom: 20px;*/
-
-}
-
-.professional-block {
-  width: 69%;
-  display:inline-block;
-}
-
-.tableP {
-
-}
 
 body {
   background-color: #f1f6f9;
@@ -49,7 +21,7 @@ table {
 }
 
 h1 {
-  color: #14274e;
+  color:#ffffff;
   font-family: 'Lobster';
   font-size: 3rem;
   margin: 0 auto 0 auto;
@@ -60,3 +32,76 @@ h3 {
   font-family: 'Nunito', sans-serif;
   font-size: 2rem;
 }
+
+.head-container{
+  background-color:#4a6d88;
+  border-radius: 70px;
+  width: min(90%, 700px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile{
+  width: min(100%, 116px);
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 10px;
+}
+
+.avatar{
+  border-radius: 100%;
+  width: min(100%, 116px);
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.name-block{
+  display: inline-block;
+  text-align: center;
+}
+
+.subtitle {
+  color:#f1f6f9;
+  font-weight: normal;
+}
+
+@media (max-width: 700px) {
+  .profile, .name-block, .title, .subtitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .head-container {
+    width: auto;
+  }  
+  
+  .subtitle {
+    padding-bottom: 10px;
+  }
+}
+
+
+.competency-block {
+  width: max(200px, 30%);
+  display: inline-block;
+  vertical-align: top;
+ 
+}
+
+.competency-row-starts {
+  margin-bottom: 20px;
+}
+
+.professional-block {
+  width: 69%;
+  display:inline-block;
+}
+
+.tableP {
+
+}
+
+
+
