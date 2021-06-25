@@ -22,19 +22,10 @@ class Nav extends HTMLElement {
         <ul class="navbar-nav m-lg-auto m-md-auto m-sm-auto ms-4">
           <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
           <li class="nav-item"> <a class="nav-link" href="portfolio.html">Projects</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="contactme.html">Contact Me</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="">Contact Me</a> </li>
         </ul>
       </div>
     </nav>`;
-    
-    
-/*     let navitems = document.getElementsByClassName('nav-link');
-    alert(toString(navitems));
-
- /*    navitems.forEach( () => {
-        let item = navitems.item;
-        aler
-    }); */
 
     }
 }
