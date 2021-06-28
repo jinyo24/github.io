@@ -3,110 +3,31 @@
 #nameTitle {
   font-family: 'Lobster', sans-serif;
   font-weight: 200;
-  
 }
 
-/* body {
-  background-color: #f1f6f9;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1rem;
+#indexContainer {
+  max-width: 1280px;
+}  
+
+.card-body {
+  margin-top: 15px;
 }
 
-hr {
-  width: 10%;
-  border-width: 0 0 5px 0;
-  border-color: lightgray;
-  border-style: dotted;
+#projectHeader {
+  background-image: url(/videos/Buildings3.gif); 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
-table {
-  padding: 5px;
-  width: 100%;
-
+#glass {
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px); 
+  background: inherit; 
+  width: 400px;
 }
 
-h1 {
-  color:#ffffff;
-  font-family: 'Raleway', sans-serif;
-  font-size: 3rem;
-  margin: 0 auto 0 auto;
+.projectCard {
+  min-height: 470px;
 }
-
-h3 {
-  color: #394867;
-  font-family: 'Nunito', sans-serif;
-  font-size: 2rem;
-}
-
-.head-container{
-  background-color:#4a6d88;
-  border-radius: 70px;
-  width: min(90%, 700px);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.profile{
-  width: min(100%, 116px);
-  display: inline-block;
-  vertical-align: bottom;
-  padding: 10px;
-}
-
-.avatar{
-  border-radius: 100%;
-  width: min(100%, 116px);
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.name-block{
-  display: inline-block;
-  text-align: center;
-}
-
-.subtitle {
-  color:#f1f6f9;
-  font-weight: normal;
-}
-
-@media (max-width: 700px) {
-  .profile, .name-block, .title, .subtitle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .head-container {
-    width: auto;
-  }  
-  
-  .subtitle {
-    padding-bottom: 10px;
-  }
-}
-
-
-.competency-block {
-  width: max(200px, 30%);
-  display: inline-block;
-  vertical-align: top;
- 
-}
-
-.competency-row-starts {
-  margin-bottom: 20px;
-}
-
-.professional-block {
-  width: 69%;
-  display:inline-block;
-}
-
-.tableP {
-
-} */
-
 
 
