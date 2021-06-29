@@ -30,4 +30,12 @@
   min-height: 470px;
 }
 
+.projectDescription {
+  height: 250px;
+}
+
+.bioIcon {
+  font-size: calc(1rem + 1vw);
+  color: black;
+}
 

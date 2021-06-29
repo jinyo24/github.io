@@ -22,8 +22,8 @@
 
     <section id="projectHeader" class="py-5 text-center">
       <div id="glass"></div>
-      <div class="container row py-lg-5 ms-auto; me-auto;">
-        <div class="col-lg-6 col-md-8 mx-auto">
+      <div class="container">
+        <div class="p-5">
           <h1 class="fw-bolder">Programming Portfolio</h1>
           <p class="lead fw-bold">This is a WIP portfolio with some simple examples of my initial steps. With time I
             will be adding more to the list..</p>
@@ -40,12 +40,16 @@
           <div class="col">
 
             <div class="projectCard card shadow-lg">
-              <img class="img-fluid" src="videos/PacMen_video.gif" style="max-height: 280px;"></img>
+              <div class="card-img-top" style="max-height: 300px; min-height: 150px; overflow: hidden;">
+                <img class="img-fluid" src="videos/PacMen_video.gif" style="max-height: 280px;"></img>
+              </div>
               <div class="card-body">
                 <p class="card-title"><strong>PacMen</strong> </p>
-                <p class="card-text" style="height: 180px; max-height: 200px; overflow: clip;">A simple script to play
-                  with the random
-                  creation and movement of pacmans. The limit is in your computer. How many you will be able to create?
+                <p class="projectDescription card-text overflow-auto">A mini game created with
+                  JavaScript and CSS through the manipulation of the DOM as part of the MITxPro Bootcamp. You will see
+                  two buttons, one to create all the pacmens you want and the other one to start the game and speed up
+                  the movement. All the pacmens will have a random behavior in regards of movement direction and speed.
+                  Also, all of them can change their direction when they reach the limits of the viewport.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -61,15 +65,16 @@
 
           <div class="col">
             <div class="projectCard card shadow-lg">
-              <div class="card-img" style="max-height: 280px; min-height: 150px; overflow: hidden;">
-                <img class="img-fluid" src="videos/Eye_Movement.gif"></img>
+              <div class="card-img" style="max-height: 300px; min-height: 150px; overflow: hidden;">
+                <img class="img-fluid img-thumbnail" src="videos/Eye_Movement.gif"></img>
               </div>
               <div class="card-body">
                 <p class="card-title"> <strong>Eyes Movement</strong> </p>
-                <p class="card-text" style="height: 180px; max-height: 200px; overflow: clip;">I would love to tell you
-                  that I am seeing
-                  you but, I am afraid I am not, or maybe...This script plays with an event listener to follow your
-                  mouse</p>
+                <p class="projectDescription card-text overflow-auto">Interactive webpage, part
+                  of the MITxPro Bootcamp, based on JavaScript and CSS to animate a pair of eyes. I have used and event
+                  listener to capture the mouse position and move the eyes in real time. The eyes follow the mouse
+                  wherever it is. This project was made with html, css and javascript using the DOM to animate the eyes.
+                </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"> <a class="text-reset"
@@ -84,14 +89,16 @@
 
           <div class="col">
             <div class="projectCard card shadow-lg">
-              <div class="card-img" style="max-height: 280px; min-height: 150px; overflow: hidden;">
-                <img class="img-fluid" src="images/map.png"></img>
+              <div class="card-img" style="max-height: 300px; min-height: 150px; overflow: hidden;">
+                <img class="img-fluid img-thumbnail" src="images/map.png"></img>
               </div>
 
               <div class="card-body">
                 <p class="card-title"> <strong>Real Time Bus Tracker</strong> </p>
-                <p class="card-text" style="height: 180px; max-height: 200px; overflow: clip;">A fetching script to get
-                  real time data from MBTA API</p>
+                <p class="projectDescription card-text overflow-auto">A fetching script, part
+                  of the MITxPro Bootcamp to get real time data from MBTA. In this project I have use two APIs, the one
+                  to obtain the data (MBTA API) and the one to visualize it (mapbox API). You can place a marker and
+                  navigate to it with the implemented functionalities. </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary"> <a class="text-reset"
