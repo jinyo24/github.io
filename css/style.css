@@ -35,7 +35,7 @@
 }
 
 .bioIcon {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 0.5vw);
   color: black;
 }
 
